@@ -1,0 +1,17 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended"
+  ],
+  "jsRules": {},
+  "rules": {
+    "no-magic-numbers": true,
+    "indent": [true, "spaces", 2],
+    "no-trailing-whitespace": true,
+    "no-consecutive-blank-lines": [true, 2],
+    "no-empty": false,
+    "member-ordering": false,
+    "variable-name": [true, "check-case", "allow-leading-underscore"]
+  },
+  "rulesDirectory": []
+}
