@@ -1,16 +1,16 @@
 
 export type CardOptions = {
-  fixedHeight?: boolean
+  fixedHeight?: boolean,
 };
 
 export class Card {
   constructor(private nativeElement: HTMLElement, private config: CardOptions) {
-    
+
   }
   private _width: number;
   private _height: number;
   private _isVisible: boolean;
-  
+
   get width(): number {
     return this._width;
   }
@@ -37,7 +37,7 @@ export class Card {
     // TODO: Update Width of Card
   }
   private updateHeight(): void {
-    if (!this.config.fixedHeight) return;
+    if (!this.config.fixedHeight) { return; }
     // TODO: Update Height of Card
   }
 }

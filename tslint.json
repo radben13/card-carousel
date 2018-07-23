@@ -11,7 +11,8 @@
     "no-consecutive-blank-lines": [true, 2],
     "no-empty": false,
     "member-ordering": false,
-    "variable-name": [true, "check-case", "allow-leading-underscore"]
+    "variable-name": [true, "check-case", "allow-leading-underscore"],
+    "interface-over-type-literal": false
   },
   "rulesDirectory": []
 }
